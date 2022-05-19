@@ -8,4 +8,4 @@ print(f"""
 Out of the {total} participants,
 only {x[2]} would be selected if luck didnt play a role
 although luck was only {luck} percent of the total score
-{100-((x[2]/selects)*100)}% of the participants were selected becuase they were lucky """)
+{((x[2]/selects)*100)}% of the participants were selected becuase they were lucky """)
